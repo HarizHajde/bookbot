@@ -14,7 +14,7 @@ def count_words(booktext):
     splitted_strings = booktext.split()
     for string in splitted_strings:
         word_count += 1
-    print(f"total number of words in text: {word_count}")
+    print(f"{word_count} words found in the document")
 
 
 
