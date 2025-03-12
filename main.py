@@ -10,10 +10,8 @@ def get_book_text(filepath):
 
 
 def count_words(booktext):
-    word_count = 0
     splitted_strings = booktext.split()
-    for string in splitted_strings:
-        word_count += 1
+    word_count = len(splitted_strings)
     print(f"{word_count} words found in the document")
 
 
